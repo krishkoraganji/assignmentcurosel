@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet"/>
+   <!-- Add these lines in the <head> section of your HTML document -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="search">
+        <button onclick="changeBackground('search')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+        </button>
+        <input type="text" placeholder="Search"/>
+    </div>
+    <div id="main-div">
+
+        <nav class="nav-style">
+            <strong>PHOTO<span>GRAPHIC</span></strong>
+           <ul id="header" style="list-style-type: none;" class="header">
+                <li>HOME</li>
+                <li>ABOUT THE ARTIST</li>
+                <li>PORTFOLIO</li>
+                <li>BLOG</li>
+                <li>ELEMENTS</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="icons"> 
+                <button onclick="changenav()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            </button>
+            <button onclick="changeBackground('main')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            </button>
+        </nav>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="images">
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/564x/2f/22/32/2f22326bf6d4d1d6b664d214ae166180.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+      <div class="hover-img">
+        <img src="https://i.pinimg.com/564x/6a/1a/be/6a1abe21a9684da1d5d45d15fd219bd6.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/564x/8e/57/5e/8e575e6e25e2ec85fc005acc36c04676.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       
+      <div class="hover-img">
+        <img src="https://i.pinimg.com/564x/0d/7f/62/0d7f6287753a99e147a37ee95f83532b.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/aa/ae/67/aaae6771a9f7adad00dc9b894e08f0cf.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/bd/c2/38/bdc238a38871b7add9e522752adb7580.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/27/1c/91/271c91f44d5a289bef3bb21872167aee.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/c1/f3/51/c1f35192207cdcc726e0a9312d37fb03.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/cd/85/e7/cd85e73beb44791132ec3871979b9485.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+    
+      </div>
+     
+    </div>
+    <div class="carousel-item">
+     <div class="images">
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/ed/58/7d/ed587dc67148d4ae819403dcf277743f.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+      <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/60/e3/0f/60e30fd6ea9fafb3b9b245a20a45ee35.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/b6/3d/b0/b63db0fda4d23207951a2783b9d16310.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       
+      <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/ee/8d/54/ee8d5425a4d0586f081a725fa77df1cc.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/90/4a/42/904a4244b0d5b48562764db1fdf1256b.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/55/56/62/555662688a54ceee1f56187461b91fee.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/564x/2f/22/32/2f22326bf6d4d1d6b664d214ae166180.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/11/e1/07/11e107b62c8d5f5fd2e50cead00625f8.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/8b/05/63/8b05638e3707199b29f31d12d011e0a4.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+    
+      </div>
+    </div>
+    <div class="carousel-item">
+     <div class="images">
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/e0/19/30/e01930e15c9a9b2e89c082b7f95b6165.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+      <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/f1/d2/02/f1d20201f7e1e448ec8b38c6da31a160.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/70/21/d5/7021d552172f22d23324bc29ee3bfbc6.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       
+      <div class="hover-img">
+        <img src="https://i.pinimg.com/564x/2f/22/32/2f22326bf6d4d1d6b664d214ae166180.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/88/fd/17/88fd17b390e687ef3020e60d699c3395.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/68/d3/59/68d35939929de1271108d64095c5c9b5.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/5d/b2/00/5db200df126d24fe92e2c56686326594.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+       <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/8e/9c/8f/8e9c8f5be7463779e5f32940c7447993.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+        <div class="hover-img">
+        <img src="https://i.pinimg.com/236x/c8/79/3e/c8793ea27cf83aaf3c5f60c8da1ff77e.jpg" alt="img" 
+        />
+        <h1 class="image-text">Take a look at my Portfoilo</h1>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <script href="index.html" rel="js">
+    let navList=document.getElementById("header");
+     let mainDiv=document.getElementById('main-div')
+     let search=document.getElementById('search')
+    function changeBackground(prop){
+        console.log(prop)
+        if(prop==='main'){
+            search.style.display='flex'
+            mainDiv.style.display='none'
+        }else{
+            navList.style.display='none'
+             mainDiv.style.display='flex'
+            search.style.display='none'
+        }
+        
+        
+        
+    }
+    function changenav(){
+        
+        if (navList.style.display==='none'){
+             navList.style.display='flex'
+           
+        }else{
+            navList.style.display='none'  
+        }
+        
+        
+        
+    }
+</script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
